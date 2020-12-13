@@ -2392,9 +2392,14 @@ function updateEmail()
 function loadEmail() {
     getRequest('webmethods/loadUserEmail.php',
         function (results) {
-//            console.log(results);
-            let email=JSON.parse(results);
-//            console.log(email[0][0]);
+            let email = ["0","0"];
+            try{
+                let email=JSON.parse(results);
+            }
+            catch(error)
+            {
+                console.log("RESULTS: " + results + " caused error: " + error);
+            }
             $("#current_email").val(email[0][0]);
         },
         function (results) {
