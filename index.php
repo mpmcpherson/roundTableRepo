@@ -38,8 +38,8 @@
       query is unknown and the files are downloaded with `lowest` priority (but
       above I already force `highest` priority for my default light experience).
     -->
-    <link rel="stylesheet" href="/dark.css" media="(prefers-color-scheme: dark)">
-    <link rel="stylesheet" href="/light.css" media="(prefers-color-scheme: light)">
+    <link rel="stylesheet" href="css/dark.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="css/light.css" media="(prefers-color-scheme: light)">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -348,5 +348,6 @@
     );
   }
 </script>
+<?php require 'pierrefrancoisdulac.php'; ?>
 </body>
 </html>
