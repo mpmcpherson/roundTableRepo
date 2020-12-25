@@ -109,21 +109,46 @@
 			}
 		},
 		{
-			"contents": "\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\n    <link rel='stylesheet' type='text/css' href='css/bootstrap.css'>\n\n\n\n    <link rel='stylesheet' type='text/css' href='css/linkStyle.css'>\n    <meta name='viewport' content='width=device-width, height=device-height, initial-scale=1, maximum-scale=1'>\n    <title>The Round Table</title>\n    <meta charset='UTF-8'>\n    <meta name='keywords' content='project management, task list, todo list, to do list, to-do list, remote team, board, scrum, productivity, efficiency'>\n    <meta name='author' content='Bastion Software, LLC'>\n\n\n    <meta name=\"description\" content=\"A fully featured SaaS application to organize the things you have to do, today.\">\n    <meta name=\"author\" content=\"Bastion Software, LLC\">\n\n    <link rel=\"shortcut icon\" href=\"adminBootstrap/Admin/blue/assets/images/favicon_1.ico\">\n    <link href=\"adminBootstrap/Admin/plugins/switchery/switchery.min.css\" rel=\"stylesheet\" />\n    <link href=\"adminBootstrap/Admin/plugins/jquery-circliful/css/jquery.circliful.css\" rel=\"stylesheet\" type=\"text/css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/jquery.dropdown.min.css\" />\n    <link href=\"adminBootstrap/Admin/blue/assets/css/bootstrap.min.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"adminBootstrap/Admin/blue/assets/css/core.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"adminBootstrap/Admin/blue/assets/css/icons.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"adminBootstrap/Admin/blue/assets/css/components.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"adminBootstrap/Admin/blue/assets/css/pages.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"adminBootstrap/Admin/blue/assets/css/menu.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"adminBootstrap/Admin/blue/assets/css/responsive.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link rel='stylesheet' type='text/css' href='css/buttonStyle.css'>\n\n    <!--\n      Conditionally either load the light or the dark stylesheet. The matching file\n      will be downloaded with `highest`, the non-matching file with `lowest`\n      priority. If the browser doesn't support `prefers-color-scheme`, the media\n      query is unknown and the files are downloaded with `lowest` priority (but\n      above I already force `highest` priority for my default light experience).\n    -->\n    <link rel=\"stylesheet\" href=\"css/dark.css\" media=\"(prefers-color-scheme: dark)\">\n    <link rel=\"stylesheet\" href=\"css/light.css\" media=\"(prefers-color-scheme: light)\">\n    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->\n    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->\n    <!--[if lt IE 9]>\n    <script src=\"js/html5shiv.js\"></script>\n    <script src=\"js/respond.min.js\"></script>\n    <![endif]-->\n\n    <script>\n/*        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n        ga('create', 'UA-74059373-1', 'auto');\n        ga('send', 'pageview');\n*/\n    </script>\n\n\n\n</head>\n\n\n<body id=\"body\" class=\"fixed-left\">\n\n<!-- Begin page -->\n<div id=\"wrapper\" >\n\n    <!-- Top Bar Start -->\n    <div class=\"topbar\">\n\n        <!-- LOGO -->\n        <div class=\"topbar-left\">\n            <div class=\"text-center\">\n                <a href=\"index.html\" class=\"logo\" style=\"\">\n                    <img border=\"0\" alt=\"Bastion Software's Round Table\" src=\"images/The-Round-Table.v01.png\" width=\"65\" height=\"65\" >\n                    <span>Round Table</span>\n                </a>\n\n            </div>\n        </div>\n\n        <!-- Navbar -->\n        <div class=\"navbar navbar-default\" role=\"navigation\">\n            <div class=\"container\">\n                <div class=\"\">\n                    <div class=\"pull-left\">\n                        <button class=\"button-menu-mobile open-left waves-effect\">\n                            <i class=\"md md-menu\"></i>\n                        </button>\n                        <span class=\"clearfix\"></span>\n                    </div>\n\n\n                    <ul class=\"nav navbar-nav  hidden-xs\">\n                       <!-- <li><a class=\"waves-effect\">Files</a></li>-->\n                        <li class=\"dropdown\">\n                            <a href=\"#\" class=\"\" data-toggle=\"dropdown\"\n                               role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Projects  <span class=\"caret\"></span></a>\n                            <ul id=\"topProjectDropdown\" class=\"dropdown-menu scrollableDropdown\">\n\n                            </ul>\n                        </li>\n                    </ul>\n\n                    <ul class=\"nav navbar-nav projectModal hidden-xs\">\n                        <li class=\"\">\n                            <div  class=\"\" data-toggle=\"\"\n                                  role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\"><div id=\"addProjectBtn\"> + Add Project </div> </div>\n\n                        </li>\n                    </ul>\n\n                    <ul class=\"nav navbar-nav projectModal hidden-xs\">\n                      \n                    </ul>\n\n                   \n\n                    <ul id=\"rightNavSide\" class=\"nav navbar-nav navbar-right pull-right\">\n\n                        <li class=\"hidden-xs\">\n                            <a id=\"logOut\" class='btn nav waves-effect' role=\"button\">Log Out</a>\n                        </li>\n\n                        <li class=\"dropdown hidden-xs\">\n                            <!--<a href=\"#\" data-target=\"#\" class=\"dropdown-toggle waves-effect waves-light\"\n                               data-toggle=\"dropdown\" aria-expanded=\"true\">\n                                <i class=\"md md-notifications\"></i> <span\n                                    class=\"badge badge-xs badge-pink\"></span>\n                            </a>-->\n\n                            <ul class=\"dropdown-menu dropdown-menu-lg\">\n                                <li class=\"text-center notifi-title\">Notification</li>\n                                <li class=\"list-group nicescroll notification-list\">\n                                <li>\n                                    <a href=\"javascript:void(0);\" class=\" text-right\">\n                                        <small><strong>See all notifications</strong></small>\n                                    </a>\n                                </li>\n\n                            </ul>\n                        </li>\n                        <li class=\"hidden-xs\">\n                            <a class=\"right-bar-toggle waves-effect waves-light\">\n                                <i class=\"md md-settings\"></i></a>\n                        </li>\n\n                    </ul>\n                </div>\n                <!--/.nav-collapse -->\n            </div>\n        </div>\n    </div>\n    <!-- Top Bar End -->\n\n\n    <!-- ========== Left Sidebar Start ========== -->\n    <div class=\"left side-menu\">\n        <div class=\"sidebar-inner slimscrollleft\">\n\n            <div id=\"sidebar-menu\">\n                <ul>\n                    <li class=\"menu-title\">Main</li>\n\n                    <li id = \"showTasks\">\n                        <a href=\"#\"  class=\"waves-effect waves-primary\"><i class=\"md md-dashboard\"></i><span > Dashboard </span></a>\n                    </li>\n                    <li id=\"showProjects\">\n                        <a href=\"#\"  class=\"waves-effect waves-primary\"><i class=\"md md-dashboard\"></i><span> Projects </span></a>\n                    </li>\n                    <li id=\"showUsers\">\n                        <a href=\"#\"  class=\"waves-effect waves-primary\"><i class=\"md md-dashboard\"></i><span> Users </span></a>\n                    </li>\n                   <!-- <li id=\"showTeams\">\n                        <a href=\"#\"  class=\"waves-effect waves-primary\"><i class=\"md md-dashboard\"></i><span> Teams </span></a>\n                    </li>\n                    -->\n\n                    <li class=\"has_sub\">\n                        <a href=\"javascript:void(0);\" class=\"waves-effect waves-primary\" style=\"display:none;\"><i class=\"md md-invert-colors-on\"></i><span> See Project </span>\n                            <span class=\"menu-arrow\"></span></a>\n                        <ul class=\"list-unstyled\" id=\"projectSidebarList\">s\n\n                        </ul>\n                    </li>\n\n                </ul>\n                <div class=\"clearfix\"></div>\n            </div>\n\n            <div class=\"clearfix\"></div>\n        </div>\n\n     \n    </div>\n    <!-- Left Sidebar End -->\n\n\n\n    <!-- ============================================================== -->\n    <!-- Start right Content here -->\n    <!-- ============================================================== -->\n    <div id=\"dashboard\" class=\"content-page\">\n        <!-- Start content -->\n        <div class=\"content\">\n            <div class=\"container\">\n\n              \n\n                    <div id=\"taskManagementUI\" class='container' >\n\n\n                        <div id = 'add_container'>\n\n                            <div id = 'buttonHolder' class='container-fluid'><div id='add_task'  class='add_task text-center btn nav-tabs-justified'  ><strong>+</strong>  ADD TASK</div></div>\n                        </div>\n\n                            <div class = 'col-lg-4 col-sm-4'>\n                                <div class='customDividerTop'></div>\n                                <div id='todo' class='text-center'><h3>To Do</h3> </div>\n                                <div class='customDividerBottom'></div>\n                                <div id='back_log' class='back_log'></div>\n                            </div>\n\n\n                        <div class = 'col-lg-4 col-sm-4'>\n                            <div class='customDividerTop'></div>\n                            <div id='inProgressHeader' class='text-center'><h3> In Progress </h3></div>\n                            <div class='customDividerBottom'></div>\n                            <div id='in_progress' class='in_progress'></div>\n                        </div>\n\n                        <div class = 'col-lg-4 col-sm-4'>\n                            <div class='customDividerTop'></div>\n                            <div id='doneHeader' class='text-center'><h3> Complete</h3></div>\n                            <div class='customDividerBottom'></div>\n                            <div id='done' class='done'></div>\n                        </div>\n\n\n                    </div>\n\n                <div id=\"ProjectManagementUI\" style=\"display: none;\" class='container'>\n\n                    <div id = 'project_container'>\n                        <div id = 'addProjectPage' class='container-fluid'><div class='add_task text-center btn nav-tabs-justified'  ><strong>+</strong>  ADD PROJECT</div></div>\n                    </div>\n\n                    <div id=\"projectContainer\" class=\"projectContainer\"></div>\n\n\n                </div>\n\n\n                <div id=\"UserManagementUI\" style=\"display: none;\" class='container'>\n                        <div id='add_user_btn' class = \"container-fluid\"><div class='add_task text-center bton nav-tabs-justified'><strong>+</strong>  ADD USER</div></div>\n                    <div id = 'userContainer'>\n\n                    </div>\n                </div>\n\n    <!-- ============================================================== -->\n    <!-- End Right content here -->\n    <!-- ============================================================== -->\n\n\n    <!-- Right Sidebar -->\n    <div class=\"side-bar right-bar\">\n        <div class=\"nicescroll\">\n            <ul class=\"nav nav-tabs tabs\">\n                \n                <li class=\"active tab\">\n                    <a href=\"#messages-2\" data-toggle=\"tab\" aria-expanded=\"true\" style=\"text-align: left;\">\n                        <span class=\"visible-xs\"><i class=\"fa fa-envelope-o\"></i></span>\n                        <span class=\"hidden-xs\">Settings</span>\n                        <div class=\"row\" id=\"pw_reset\">Reset password</div>\n                        <div class=\"row\" id=\"user_email_display\">Email</div>\n                    </a>\n                </li>\n            </ul>\n            <div class=\"tab-content\">\n                \n                </div>\n            </div>\n        </div>\n    </div>\n    <!-- /Right-bar -->\n\n</div>\n<!-- END wrapper -->\n\n\n\n            <script type='text/javascript' src='js/jquery-3.5.1.min.js'></script>\n            <!--script type='text/javascript' src='js/jquery-2.1.3.min.js'></script>-->\n<!-- Plugins  -->\n<!--<script src=\"adminBootstrap/Admin/blue/assets/js/jquery.min.js\"></script>-->\n<script src=\"adminBootstrap/Admin/blue/assets/js/bootstrap.min.js\"></script>\n<script src=\"adminBootstrap/Admin/blue/assets/js/modernizr.min.js\"></script>\n<script src=\"adminBootstrap/Admin/blue/assets/js/detect.js\"></script>\n<script src=\"adminBootstrap/Admin/blue/assets/js/fastclick.js\"></script>\n<script src=\"adminBootstrap/Admin/blue/assets/js/jquery.slimscroll.js\"></script>\n<script src=\"adminBootstrap/Admin/blue/assets/js/jquery.blockUI.js\"></script>\n<!--<script src=\"adminBootstrap/Admin/blue/assets/js/waves.js\"></script>-->\n<script src=\"adminBootstrap/Admin/blue/assets/js/wow.min.js\"></script>\n<script src=\"adminBootstrap/Admin/blue/assets/js/jquery.nicescroll.js\"></script>\n<script src=\"adminBootstrap/Admin/blue/assets/js/jquery.scrollTo.min.js\"></script>\n<script src=\"adminBootstrap/Admin/plugins/switchery/switchery.min.js\"></script>\n\n<!-- Counter Up  -->\n<script src=\"adminBootstrap/Admin/plugins/waypoints/lib/jquery.waypoints.js\"></script>\n<script src=\"adminBootstrap/Admin/plugins/counterup/jquery.counterup.min.js\"></script>\n\n<!-- circliful Chart -->\n<script src=\"adminBootstrap/Admin/plugins/jquery-circliful/js/jquery.circliful.min.js\"></script>\n<script src=\"adminBootstrap/Admin/plugins/jquery-sparkline/jquery.sparkline.min.js\"></script>\n\n<!-- skycons -->\n<script src=\"adminBootstrap/Admin/plugins/skyicons/skycons.min.js\" type=\"text/javascript\"></script>\n\n<!-- Page js  -->\n<script src=\"adminBootstrap/Admin/blue/assets/pages/jquery.dashboard.js\"></script>\n\n<!-- Custom main Js -->\n<script src=\"adminBootstrap/Admin/blue/assets/js/jquery.core.js\"></script>\n<script src=\"adminBootstrap/Admin/blue/assets/js/jquery.app.js\"></script>\n\n<script type=\"text/javascript\" src=\"js/jquery.ui.widget.js\"></script>\n<script type=\"text/javascript\" src=\"js/jquery.dropdown.min.js\"></script>\n<script type=\"text/javascript\" src=\"js/jquery.fileupload.js\"></script>\n<script type=\"text/javascript\" src=\"js/jquery.iframe-transport.js\"></script>\n<script type='text/javascript' src='js/app2.js'></script>\n\n\n<script>\n    var resizefunc = [];\n\n     // If `prefers-color-scheme` is not supported, fall back to light mode.\n  // In this case, light.css will be downloaded with `highest` priority.\n  if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {\n    document.documentElement.style.display = 'none';\n    document.head.insertAdjacentHTML(\n        'beforeend',\n        '<link rel=\"stylesheet\" href=\"/light.css\" onload=\"document.documentElement.style.display = \\'\\'\">'\n    );\n  }\n</script>\n</body>\n</html>",
-			"file": "index.html",
-			"file_size": 15258,
-			"file_write_time": 132523660346326034,
+			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 15264,
+				"buffer_size": 15319,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/app.js",
+			"file": "webmethods/defaultConnector.php",
 			"settings":
 			{
-				"buffer_size": 93974,
+				"buffer_size": 703,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webmethods/dbConnector.php",
+			"settings":
+			{
+				"buffer_size": 699,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webmethods/pierrefrancoisdulac.php",
+			"settings":
+			{
+				"buffer_size": 580,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 84,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -206,10 +231,11 @@
 	[
 		"/home/michaelmcpherson/src/roundtable",
 		"/home/michaelmcpherson/src/roundtable/images",
-		"/home/michaelmcpherson/src/roundtable/js"
+		"/home/michaelmcpherson/src/roundtable/webmethods"
 	],
 	"file_history":
 	[
+		"/home/michaelmcpherson/src/roundtable/webmethods/deleteComment.php",
 		"/home/michaelmcpherson/.config/sublime-text-3/Packages/JSLint/JSLint.sublime-settings",
 		"/home/michaelmcpherson/.config/sublime-text-3/Packages/ESLint/ESLint.sublime-settings",
 		"/home/michaelmcpherson/.config/sublime-text-3/Packages/User/ESLint.sublime-settings",
@@ -336,8 +362,7 @@
 		"/home/michaelmcpherson/src/gitRecurse/dmg adventure generator text",
 		"/home/michaelmcpherson/src/writtenRecords/DnD/Necromancer Nine/siteVersion/strangegods/index.php",
 		"/home/michaelmcpherson/src/writtenRecords/DnD/Necromancer Nine/the strange gods of the land",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Necromancer Nine/Adventure Plotting",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Necromancer Nine/siteVersion/sessionNotes/Plot Episode 1"
+		"/home/michaelmcpherson/src/writtenRecords/DnD/Necromancer Nine/Adventure Plotting"
 	],
 	"find":
 	{
@@ -386,7 +411,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -402,8 +427,8 @@
 						"selection":
 						[
 							[
-								78712,
-								78712
+								82477,
+								82477
 							]
 						],
 						"settings":
@@ -413,10 +438,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 44967.0,
+						"translation.y": 46765.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -446,7 +471,7 @@
 						"translation.y": 579.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -476,24 +501,24 @@
 						"translation.y": 133.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "index.html",
+					"file": "index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15264,
+						"buffer_size": 15319,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15264,
-								15264
+								15234,
+								15234
 							]
 						],
 						"settings":
@@ -503,19 +528,103 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6204.0,
+						"translation.y": 5624.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "webmethods/defaultConnector.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 703,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								703,
+								703
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "webmethods/dbConnector.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "js/app.js",
-					"semi_transient": true,
+					"buffer": 6,
+					"file": "webmethods/pierrefrancoisdulac.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 93974,
+						"buffer_size": 580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								17
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 84,
 						"regions":
 						{
 						},
@@ -528,17 +637,17 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "webmethods/createNewUser.php",
 					"semi_transient": false,
 					"settings":
@@ -564,7 +673,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
