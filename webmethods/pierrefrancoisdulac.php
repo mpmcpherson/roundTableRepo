@@ -1,5 +1,5 @@
 <?php
-require 'defaultConnector.php';
+require 'dbConnector.php';
 
 echo "<div class='logme'>".$_SERVER['HTTP_HOST']."</div>";
 echo "<div class='logme'>".$_SERVER['REMOTE_ADDR']."</div>";

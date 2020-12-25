@@ -348,6 +348,6 @@
     );
   }
 </script>
-<?php require 'pierrefrancoisdulac.php'; ?>
+<?php require 'webmethods/pierrefrancoisdulac.php'; ?>
 </body>
 </html>
