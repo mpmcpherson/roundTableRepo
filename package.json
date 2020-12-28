@@ -1,0 +1,11 @@
+{
+  "jshintConfig": {
+    "esversion": 6,
+    "jquery": true,
+    "browser": true,
+    "devel": true,
+    "undef": true,
+    "unused": true,
+    "futurehostile": true
+  }
+}

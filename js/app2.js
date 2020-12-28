@@ -38,7 +38,7 @@ function sessionUIsetup() {
 
 function pageSetup()
 {
-
+ 
     //hide the rest of the malarky
     $("#wrapper").hide();
 
@@ -48,7 +48,7 @@ function pageSetup()
     loginBox.className="loginpopup login-popup";
 
     //create the holder for the spans
-    let containerHolder = document.createElement('div');
+    //let containerHolder = document.createElement('div');
 
 
     //logo area
@@ -137,12 +137,11 @@ function login()
     //console.log(data);
     getRequest(
         'webmethods/userLogin.php',
-        function(data) {    //console.log("function: login success")
-            //console.log(data);
+        function() {    
 
             $("#displayUserName").text($("#username").val());
 
-            body.setAttribute("style", "background: #f5f5f5");
+            //body.setAttribute("style", "background: #f5f5f5");
             $("#wrapper").show();
             $("#login-box").remove();
 
@@ -218,14 +217,16 @@ function verifySession()
     }
 }
 
-function badVerify(data)
+//function badVerify(data)
+function badVerify()
 {
     console.log("BadVerify");
-    console.log(data)
+    //console.log(data);
     pageSetup();
 }
 
-function goodSession(data)
+//function goodSession(data)
+function goodSession()
 {
 
     init();
@@ -234,7 +235,7 @@ function goodSession(data)
 
     //console.log("GoodSession");
     //  alert(data);
-    body.setAttribute("style", "background: #f5f5f5");
+    //body.setAttribute("style", "background: #f5f5f5");
     $("#wrapper").show();
     $("#login-box").remove();
 
@@ -296,19 +297,20 @@ function parseCookie(inputString)
 
     return KvP;
 }
+/*
 function replaceCookie(cname, cvalue){
     let cookie = cname+"="+cvalue;
     setCookie(cookie);
 
     //sessionStorage.setItem(cname,cvalue);
 
-}
+}*/
 
 function sessionStorageReplaceCookie(cname,cvalue) {
     sessionStorage.setItem(cname, cvalue);
 }
 
-function setCookie(fullCookieString)
+/*function setCookie(fullCookieString)
 {
     //console.log(fullCookieString);
 
@@ -316,13 +318,13 @@ function setCookie(fullCookieString)
     d.setTime(d.getTime() + (8 * 60 * 60 * 1000));
     let expires = "expires="+d.toUTCString();
     document.cookie = fullCookieString+ ";" + expires + ";path=/";
-}
-
+}*/
+/*
 function addCookie(cname, cvalue) {
     setCookie(cname + "=" + cvalue + ";");
     //sessionStorage.setItem(cname,cvalue);
 }
-
+*/
 
 
 function positionLogin(menu) {
@@ -335,8 +337,8 @@ function positionLogin(menu) {
     let menuHeight = menu.offsetHeight + 4;
 
 
-    let windowWidth = window.innerWidth;
-    let windowHeight = $(document).height(); //window.innerHeight;
+  //  let windowWidth = window.innerWidth;
+  //  let windowHeight = $(document).height(); //window.innerHeight;
 
     menu.style.position = 'absolute';
 
@@ -2147,7 +2149,7 @@ function removeUserFromProject(userid, projectid, assigning_user)
                 $("#team_input_title").focus();
             }
         });
-
+        
         $(document).click(function (event) {
             if (!$(event.target).closest('#addTeamModal').length) {
                 if (teamModal.is(":visible")) {
@@ -2540,7 +2542,7 @@ function addFileModal() {
 
         let apm = $("#attachFileModal");
 
-        apm.append("<select id='attachFileModalSelect'><option>attach to project...</option></select>")
+        apm.append("<select id='attachFileModalSelect'><option>attach to project...</option></select>");
         apm.append("<input id='attachFileDialog' class='input-file' id='fileInput' type='file' name='file'>");
 
 
@@ -2644,5 +2646,5 @@ function addProjectModal()
             if ( e.keyCode === 27 ) {
                 //toggleMenuOff();
             }
-        }
+        };
     }

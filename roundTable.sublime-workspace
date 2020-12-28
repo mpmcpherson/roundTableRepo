@@ -87,77 +87,19 @@
 			"file": "js/app2.js",
 			"settings":
 			{
-				"buffer_size": 82477,
+				"buffer_size": 82485,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "webmethods/loadUserNodes.php",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 2051,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "webmethods/loadNodes.php",
-			"settings":
-			{
-				"buffer_size": 3659,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 15319,
+				"buffer_size": 172,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webmethods/defaultConnector.php",
-			"settings":
-			{
-				"buffer_size": 703,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webmethods/dbConnector.php",
-			"settings":
-			{
-				"buffer_size": 699,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webmethods/pierrefrancoisdulac.php",
-			"settings":
-			{
-				"buffer_size": 580,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 84,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webmethods/createNewUser.php",
-			"settings":
-			{
-				"buffer_size": 2003,
-				"line_ending": "Windows"
+				"line_ending": "Unix",
+				"name": "{"
 			}
 		}
 	],
@@ -173,16 +115,28 @@
 		"selected_items":
 		[
 			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
 				"package",
 				"Package Control: Install Package"
 			],
 			[
 				"pretty",
 				"Pretty JSON: Format JSON Lines"
-			],
-			[
-				"packa",
-				"Package Control: Install Package"
 			],
 			[
 				"package control: list",
@@ -213,7 +167,7 @@
 	},
 	"console":
 	{
-		"height": 193.0,
+		"height": 336.0,
 		"history":
 		[
 		]
@@ -230,11 +184,41 @@
 	"expanded_folders":
 	[
 		"/home/michaelmcpherson/src/roundtable",
-		"/home/michaelmcpherson/src/roundtable/images",
+		"/home/michaelmcpherson/src/roundtable/js",
 		"/home/michaelmcpherson/src/roundtable/webmethods"
 	],
 	"file_history":
 	[
+		"/home/michaelmcpherson/src/edraw_plugins/disassembly/allFiles/edraw_data/data/opt/EdrawMax-10/lib/libExporterFunctions.txt.1",
+		"/home/michaelmcpherson/src/edraw_plugins/libExporter.exported",
+		"/home/michaelmcpherson/src/edraw_plugins/disassembledExporter.asm",
+		"/home/michaelmcpherson/src/edraw_plugins/intelDisassembledExporter.asm",
+		"/home/michaelmcpherson/src/edraw_plugins/disassembly/allFiles/edraw_data/data/opt/EdrawMax-10/edrawFunctions.txt",
+		"/home/michaelmcpherson/src/edraw_plugins/disassembly/allFiles/edraw_data/data/opt/EdrawMax-10/lib/libExporterFunctions.txt",
+		"/home/michaelmcpherson/src/toolbox/decomp/manualDecomp.sh",
+		"/home/michaelmcpherson/Downloads/ghidra_9.2_PUBLIC/support/launch.sh",
+		"/home/michaelmcpherson/.profile",
+		"/home/michaelmcpherson/Downloads/ghidra_9.2_PUBLIC/ghidraRun",
+		"/home/michaelmcpherson/src/notMine/SublimeLinter-phplint/linter.py",
+		"/home/michaelmcpherson/Downloads/ghidra_9.2_PUBLIC/support/launch.",
+		"/home/michaelmcpherson/Downloads/ghidra_9.2_PUBLIC/Ghidra/application.properties",
+		"/home/michaelmcpherson/src/gitRecurse/gitScan.sh",
+		"/home/michaelmcpherson/src/edraw_plugins/disassembly/allFiles/edraw_data/data/opt/EdrawMax-10/lol.txt",
+		"/home/michaelmcpherson/src/gitRecurse/dmg adventure generator text",
+		"/home/michaelmcpherson/src/gitRecurse/confBuilder.sh",
+		"/home/michaelmcpherson/src/edraw_plugins/disassembly/allFiles/edraw_data/data/opt/EdrawMax-10/EdrawMax.asm",
+		"/home/michaelmcpherson/src/roundtable/manage/js/manageApp.js",
+		"/home/michaelmcpherson/src/roundtable/webmethods/createNewUser.php",
+		"/home/michaelmcpherson/src/roundtable/webmethods/pierrefrancoisdulac.php",
+		"/home/michaelmcpherson/src/roundtable/webmethods/dbConnector.php",
+		"/home/michaelmcpherson/src/roundtable/webmethods/loadUserNodes.php",
+		"/home/michaelmcpherson/src/roundtable/webmethods/loadNodes.php",
+		"/home/michaelmcpherson/src/roundtable/index.php",
+		"/home/michaelmcpherson/src/homepage/resources/defaultConnector.php",
+		"/home/michaelmcpherson/src/roundtable/webmethods/defaultConnector.php",
+		"/home/michaelmcpherson/src/roundtable/deployToLocalhost.sh",
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/resources/defaultConnector.php",
+		"/home/michaelmcpherson/src/roundtable/.gitignore",
 		"/home/michaelmcpherson/src/roundtable/webmethods/deleteComment.php",
 		"/home/michaelmcpherson/.config/sublime-text-3/Packages/JSLint/JSLint.sublime-settings",
 		"/home/michaelmcpherson/.config/sublime-text-3/Packages/ESLint/ESLint.sublime-settings",
@@ -246,7 +230,6 @@
 		"/home/michaelmcpherson/.config/sublime-text-3/Packages/User/GutterColor.sublime-settings",
 		"/home/michaelmcpherson/.config/sublime-text-3/Packages/Gutter Color/GutterColor.sublime-settings",
 		"/home/michaelmcpherson/src/clientSideBlogger/composer.json",
-		"/home/michaelmcpherson/src/roundtable/webmethods/defaultConnector.php",
 		"/tmp/fz3temp-2/crypt.php",
 		"/tmp/fz3temp-2/admin.php",
 		"/home/michaelmcpherson/src/RoundTable/.gitignore",
@@ -333,40 +316,11 @@
 		"/home/michaelmcpherson/Documents/smugdamian",
 		"/home/michaelmcpherson/src/writtenRecords/how to symbolic link your www-http folder to dev source",
 		"/home/michaelmcpherson/src/DnDModuleGenerator/README.md",
-		"/home/michaelmcpherson/src/newUIframework/uiSite/css/style.css",
-		"/home/michaelmcpherson/src/newUIframework/uiSite/js/themes/silver/theme.js",
-		"/home/michaelmcpherson/src/notMine/wysiwyg.css/wysiwyg.sass",
-		"/home/michaelmcpherson/src/notMine/wysiwyg.css/wysiwyg.css",
-		"/home/michaelmcpherson/src/DnDModuleGenerator/session outilnes",
-		"/home/michaelmcpherson/src/gitRecurse/gitScan2.config",
-		"/home/michaelmcpherson/src/gitRecurse/gitScan.sh",
-		"/home/michaelmcpherson/src/gitRecurse/gitPull.config",
-		"/home/michaelmcpherson/src/gitRecurse/confBuilder.sh",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Beluin Keyran",
-		"/etc/php/7.3/apache2/php.ini",
-		"/home/michaelmcpherson/src/QueueOversightTool/linuxPass/dbConnector.php",
-		"/home/michaelmcpherson/src/steganograph/the prophet",
-		"/home/michaelmcpherson/src/steganograph/readText.php",
-		"/home/michaelmcpherson/src/steganograph/encode.php",
-		"/home/michaelmcpherson/src/steganograph/decode.php",
-		"/home/michaelmcpherson/src/quickscrape/vacuum.php",
-		"/home/michaelmcpherson/Downloads/glg.txt",
-		"/home/michaelmcpherson/src/newUIframework/uiSite/js/helper.js",
-		"/home/michaelmcpherson/src/newUIframework/uiSite/horribleCorpus.php",
-		"/home/michaelmcpherson/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-		"/home/michaelmcpherson/src/newUIframework/uiSite/resources/logger.php",
-		"/home/michaelmcpherson/src/newUIframework/uiSite/js/app.js",
-		"/home/michaelmcpherson/src/DnDModuleGenerator/site/adventureGenerator/index.php",
-		"/home/michaelmcpherson/src/gitRecurse/bintest.sh",
-		"/home/michaelmcpherson/src/gitRecurse/gitScan.config",
-		"/home/michaelmcpherson/src/gitRecurse/dmg adventure generator text",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Necromancer Nine/siteVersion/strangegods/index.php",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Necromancer Nine/the strange gods of the land",
-		"/home/michaelmcpherson/src/writtenRecords/DnD/Necromancer Nine/Adventure Plotting"
+		"/home/michaelmcpherson/src/newUIframework/uiSite/css/style.css"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -380,6 +334,30 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"java",
+			"javac",
+			"image",
+			"Output",
+			"sheet",
+			"<main>",
+			"main",
+			"image",
+			"main",
+			"libExport",
+			"png",
+			"<encode",
+			"<[a-z]>",
+			"<[a-z]*>",
+			"<\\*>",
+			"<*>",
+			"<main>",
+			" main",
+			" .text",
+			"png",
+			"setCookie",
+			"addCookie",
+			"'js/app2.js'",
+			"'js/app.js'",
 			"loademail",
 			"add_user_btn",
 			"loadusers",
@@ -411,7 +389,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -420,224 +398,53 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 82477,
+						"buffer_size": 82485,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								82477,
-								82477
+								8986,
+								8986
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 46765.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "webmethods/loadUserNodes.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2051,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1404,
-								1404
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 579.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "webmethods/loadNodes.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3659,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3132,
-								3132
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 133.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15319,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								15234,
-								15234
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5624.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "webmethods/defaultConnector.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 703,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								703,
-								703
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "webmethods/dbConnector.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 699,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								364,
-								364
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "webmethods/pierrefrancoisdulac.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 580,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17,
-								17
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 7160.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": ".gitignore",
+					"buffer": 1,
+					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 84,
+						"buffer_size": 172,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								172,
+								172
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+							"auto_complete": true,
+							"auto_name": "{",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -645,43 +452,13 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "webmethods/createNewUser.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2003,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -720,7 +497,7 @@
 	},
 	"output.exec":
 	{
-		"height": 121.0
+		"height": 339.0
 	},
 	"output.find_results":
 	{
@@ -734,7 +511,7 @@
 	"project": "roundTable.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
