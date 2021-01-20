@@ -380,11 +380,8 @@ function loadNodes() {
             $("#in_progress").empty();
             $("#done").empty();
 
-
             let output = JSON.parse(responseText);
-            //console.log(output);
             for(let k = 0; k<output.length;++k)
-
             {
                 //console.log(output[k]);
                 loadTask(output[k][2], output[k][1], output[k][0]);

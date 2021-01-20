@@ -184,11 +184,11 @@
 	"expanded_folders":
 	[
 		"/home/michaelmcpherson/src/roundtable",
-		"/home/michaelmcpherson/src/roundtable/js",
 		"/home/michaelmcpherson/src/roundtable/webmethods"
 	],
 	"file_history":
 	[
+		"/home/michaelmcpherson/src/roundtable/webmethods/saveNewPermissions.php",
 		"/home/michaelmcpherson/src/edraw_plugins/disassembly/allFiles/edraw_data/data/opt/EdrawMax-10/lib/libExporterFunctions.txt.1",
 		"/home/michaelmcpherson/src/edraw_plugins/libExporter.exported",
 		"/home/michaelmcpherson/src/edraw_plugins/disassembledExporter.asm",
@@ -315,8 +315,7 @@
 		"/home/michaelmcpherson/src/DnDModuleGenerator/05dndPlotList",
 		"/home/michaelmcpherson/Documents/smugdamian",
 		"/home/michaelmcpherson/src/writtenRecords/how to symbolic link your www-http folder to dev source",
-		"/home/michaelmcpherson/src/DnDModuleGenerator/README.md",
-		"/home/michaelmcpherson/src/newUIframework/uiSite/css/style.css"
+		"/home/michaelmcpherson/src/DnDModuleGenerator/README.md"
 	],
 	"find":
 	{
@@ -405,8 +404,8 @@
 						"selection":
 						[
 							[
-								8986,
-								8986
+								0,
+								0
 							]
 						],
 						"settings":
@@ -417,7 +416,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7160.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
